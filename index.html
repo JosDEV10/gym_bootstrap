@@ -225,162 +225,166 @@
     <!-- Seccion Donatto-Footer-->
     <!-- FORMULARIO CON BOOTSTRAP -->
     <section 
-        class="py-5 text-center"
-        style="background-color: #ffc107;"
-    >
-        <div class="container">
+    class="py-5 text-center"
+    style="background-color: #ffc107;"
+>
+    <div class="container px-3 px-md-4">
 
-            <!-- TÍTULO -->
+        <!-- TÍTULO -->
+        <div 
+            class="d-inline-block text-white fw-bold text-uppercase px-4 px-md-5 py-3 mb-4 rounded-4 shadow"
+            style="
+                background: linear-gradient(90deg, #0033cc, #0055ff);
+                font-size: clamp(1.5rem, 6vw, 3rem);
+                letter-spacing: 2px;
+                text-shadow: 2px 2px 0 #000, 4px 4px 8px rgba(0,0,0,0.3);
+                -webkit-text-stroke: 1px #000;
+            "
+        >
+            INSCRÍBETE YA
+
             <div 
-                class="d-inline-block text-white fw-bold text-uppercase px-4 px-md-5 py-3 mb-4 rounded-4 shadow"
-                style="
-                    background: linear-gradient(90deg, #0033cc, #0055ff);
-                    font-size: clamp(1.6rem, 5vw, 3rem);
-                    letter-spacing: 2px;
-                    text-shadow: 2px 2px 0 #000, 4px 4px 8px rgba(0,0,0,0.3);
-                    -webkit-text-stroke: 1px #000;
-                "
-            >
-                INSCRÍBETE YA
-                <div 
-                    class="mx-auto mt-2 rounded-pill"
-                    style="width: 120px; height: 5px; background-color: #0033cc;"
-                ></div>
-            </div>
-
-            <!-- FORMULARIO -->
-            <form 
-                action="guardar.php" 
-                method="POST"
-                class="mx-auto bg-black rounded-4 p-4 p-md-5 shadow-lg"
-                style="max-width: 700px;"
-            >
-
-                <div class="mb-4">
-                    <input 
-                        type="text" 
-                        name="nombre" 
-                        class="form-control form-control-lg rounded-3 border-0"
-                        placeholder="Nombre completo" 
-                        required
-                    >
-                </div>
-
-                <div class="mb-4">
-                    <input 
-                        type="email" 
-                        name="email" 
-                        class="form-control form-control-lg rounded-3 border-0"
-                        placeholder="Correo electrónico" 
-                        required
-                    >
-                </div>
-
-                <div class="mb-4">
-                    <input 
-                        type="tel" 
-                        name="whatsapp" 
-                        class="form-control form-control-lg rounded-3 border-0"
-                        placeholder="Contacto de Whatsapp" 
-                        required
-                    >
-                </div>
-
-                <div class="text-center text-md-end">
-                    <button 
-                        type="submit" 
-                        class="btn btn-primary btn-lg fw-bold px-4 rounded-3"
-                    >
-                        ENVIAR
-                    </button>
-                </div>
-
-            </form>
-
+                class="mx-auto mt-2 rounded-pill"
+                style="width: 120px; height: 5px; background-color: #0033cc;"
+            ></div>
         </div>
-    </section>
 
-    <!-- CONTACTOS / FOOTER CON BOOTSTRAP -->
-    <footer 
-        id="contactos" 
-        class="text-white pt-5 pb-3"
-        style="background: linear-gradient(135deg, #2b2b2b, #1a1a1a, #111);"
-    >
-        <div class="container">
+        <!-- FORMULARIO -->
+        <form 
+            action="guardar.php" 
+            method="POST"
+            class="mx-auto bg-black rounded-4 p-4 p-md-5 shadow-lg w-100"
+            style="max-width: 700px;"
+        >
 
-            <div class="row justify-content-center justify-content-md-start">
-                <div class="col-11 col-sm-8 col-md-6 col-lg-5 ps-md-5">
+            <div class="mb-3 mb-md-4">
+                <input 
+                    type="text" 
+                    name="nombre" 
+                    class="form-control form-control-lg rounded-3 border-0"
+                    placeholder="Nombre completo" 
+                    required
+                >
+            </div>
 
-                    <h2 class="fw-bold text-uppercase mb-4 text-center text-md-start fs-4">
-                        CONTÁCTANOS
-                    </h2>
+            <div class="mb-3 mb-md-4">
+                <input 
+                    type="email" 
+                    name="email" 
+                    class="form-control form-control-lg rounded-3 border-0"
+                    placeholder="Correo electrónico" 
+                    required
+                >
+            </div>
 
-                    <div class="d-flex align-items-center justify-content-center justify-content-md-start mb-3">
-                        <a href="https://wa.me/593983421877" target="_blank" class="me-3">
-                            <img 
-                                src="images/icons/whatsapp.png" 
-                                alt="WhatsApp" 
-                                width="34" 
-                                height="34"
-                            >
-                        </a>
+            <div class="mb-4">
+                <input 
+                    type="tel" 
+                    name="whatsapp" 
+                    class="form-control form-control-lg rounded-3 border-0"
+                    placeholder="Contacto de Whatsapp" 
+                    required
+                >
+            </div>
 
-                        <a 
-                            href="https://wa.me/593983421877" 
-                            target="_blank" 
-                            class="text-white text-decoration-none fs-5"
+            <div class="d-grid d-md-flex justify-content-md-end">
+                <button 
+                    type="submit" 
+                    class="btn btn-primary btn-lg fw-bold px-4 rounded-3"
+                >
+                    ENVIAR
+                </button>
+            </div>
+
+        </form>
+
+    </div>
+</section>
+
+<!-- CONTACTOS / FOOTER RESPONSIVO CON BOOTSTRAP -->
+<footer 
+    id="contactos" 
+    class="text-white pt-5 pb-3"
+    style="background: linear-gradient(135deg, #2b2b2b, #1a1a1a, #111);"
+>
+    <div class="container px-3 px-md-4">
+
+        <div class="row justify-content-center justify-content-md-start">
+            <div class="col-12 col-sm-10 col-md-6 col-lg-5 ps-md-5">
+
+                <h2 class="fw-bold text-uppercase mb-4 text-center text-md-start fs-4">
+                    CONTÁCTANOS
+                </h2>
+
+                <!-- WHATSAPP -->
+                <div class="d-flex align-items-center justify-content-center justify-content-md-start mb-3">
+                    <a href="https://wa.me/593983421877" target="_blank" class="me-3">
+                        <img 
+                            src="images/icons/whatsapp.png" 
+                            alt="WhatsApp" 
+                            width="34" 
+                            height="34"
                         >
-                            0983421877
-                        </a>
-                    </div>
+                    </a>
 
-                    <div class="d-flex align-items-center justify-content-center justify-content-md-start mb-3">
-                        <a href="https://facebook.com/mashkabox" target="_blank" class="me-3">
-                            <img 
-                                src="images/icons/facebook.png" 
-                                alt="Facebook" 
-                                width="34" 
-                                height="34"
-                            >
-                        </a>
-
-                        <a 
-                            href="https://facebook.com/mashkabox" 
-                            target="_blank" 
-                            class="text-white text-decoration-none fs-5"
-                        >
-                            @mashkabox
-                        </a>
-                    </div>
-
-                    <div class="d-flex align-items-center justify-content-center justify-content-md-start mb-4">
-                        <a href="https://instagram.com/mashkabox" target="_blank" class="me-3">
-                            <img 
-                                src="images/icons/instagram.png" 
-                                alt="Instagram" 
-                                width="34" 
-                                height="34"
-                            >
-                        </a>
-
-                        <a 
-                            href="https://instagram.com/mashkabox" 
-                            target="_blank" 
-                            class="text-white text-decoration-none fs-5"
-                        >
-                            @mashkabox
-                        </a>
-                    </div>
-
+                    <a 
+                        href="https://wa.me/593983421877" 
+                        target="_blank" 
+                        class="text-white text-decoration-none fs-5"
+                    >
+                        0983421877
+                    </a>
                 </div>
-            </div>
 
-            <div class="text-center text-white-50 small mt-4">
-                © 2026 Mashka Box - Todos los derechos reservados
-            </div>
+                <!-- FACEBOOK -->
+                <div class="d-flex align-items-center justify-content-center justify-content-md-start mb-3">
+                    <a href="https://facebook.com/mashkabox" target="_blank" class="me-3">
+                        <img 
+                            src="images/icons/facebook.png" 
+                            alt="Facebook" 
+                            width="34" 
+                            height="34"
+                        >
+                    </a>
 
+                    <a 
+                        href="https://facebook.com/mashkabox" 
+                        target="_blank" 
+                        class="text-white text-decoration-none fs-5"
+                    >
+                        @mashkabox
+                    </a>
+                </div>
+
+                <!-- INSTAGRAM -->
+                <div class="d-flex align-items-center justify-content-center justify-content-md-start mb-4">
+                    <a href="https://instagram.com/mashkabox" target="_blank" class="me-3">
+                        <img 
+                            src="images/icons/instagram.png" 
+                            alt="Instagram" 
+                            width="34" 
+                            height="34"
+                        >
+                    </a>
+
+                    <a 
+                        href="https://instagram.com/mashkabox" 
+                        target="_blank" 
+                        class="text-white text-decoration-none fs-5"
+                    >
+                        @mashkabox
+                    </a>
+                </div>
+
+            </div>
         </div>
-    </footer>
+
+        <div class="text-center text-white-50 small mt-4 px-3">
+            © 2026 Mashka Box - Todos los derechos reservados
+        </div>
+
+    </div>
+</footer>
 
     <!-- BOOTSTRAP JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
