@@ -102,4 +102,4 @@ Av. Unidad Nacional y Manuelita Saenz (junto a Bundavah), Latacunga, Ecuador.
 
 ---
 
-© 2026 Mashka Box Training Club — Universidad Técnica de Cotopaxi
+© 2026 Mashka Box Training Club
